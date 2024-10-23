@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion:"2010-09-09"
 Resources:
  MyEc2_Instance: 
-    Type: 'AWS::EC2::Instance
+    Type: AWS::EC2::Instance
     Properties:
      ImageId: ami-06b21ccaeff8cd686
      InstanceType: t2.micro
-      KeyName: newone
+       KeyName: newone
 

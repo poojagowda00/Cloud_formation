@@ -1,1 +1,7 @@
-template-file-path: ./cloud_ec2.yml
+AWSTemplateFormatVersion:"2010-09-09"
+Description: using cloud fromation template creating a simple s3 bucket
+Resources:
+  buckets3:
+   type:  AWS::S3::Bucket
+   Properties:
+      BucketName: s3-bucket-aws-10-26-2024.com
